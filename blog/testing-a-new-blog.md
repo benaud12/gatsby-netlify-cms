@@ -5,7 +5,7 @@ title: Testing a New Blog
 ---
 # Look at my Blog Test
 
-I'm testing creating blogs n stuff. Even adding a link to [something](https://www.theguardian.com/uk).
+I'm testing creating blogs n stuff. Even adding a link to <a href="https://www.theguardian.com/" target="_blank">something</a>.
 
 ```
 echo 'nice'
