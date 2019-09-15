@@ -18,7 +18,7 @@ export default ({ data }) => {
 
 export const pageQuery = graphql`
   query {
-    markdownRemark(frontmatter: { title: { eq: "homepage" } }) {
+    markdownRemark(frontmatter: { pageId: { eq: "homepage" } }) {
       frontmatter {
         intro
       }

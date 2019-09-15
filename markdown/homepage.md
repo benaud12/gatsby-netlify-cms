@@ -1,4 +1,5 @@
 ---
+pageId: homepage
 intro: >-
   Apartment Waltraud is a lovely ski/holiday apartment in the idyllic alpine
   village of Ramsau am Dachstein.\

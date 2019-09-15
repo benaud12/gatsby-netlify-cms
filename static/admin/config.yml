@@ -13,4 +13,5 @@ collections:
         label: Home Page
         name: index
         fields:
+          - { label: "Page Id", name: "pageId", widget: "hidden", default: "homepage"}
           - { label: Intro, name: intro, widget: markdown }
