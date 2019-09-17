@@ -3,9 +3,8 @@ import { Helmet } from "react-helmet"
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
 import "./styles.scss"
-import { withPrefix } from "gatsby"
 
-const TemplateWrapper = ({ children }) => {
+const Layout = ({ children }) => {
   return (
     <>
       <Helmet>
@@ -17,10 +16,10 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
       </Helmet>
       <Navbar />
-      <div className="main">{children}</div>
+      <main className="main">{children}</main>
       <Footer />
     </>
   )
 }
 
-export default TemplateWrapper
+export default Layout
