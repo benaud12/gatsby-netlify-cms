@@ -1,5 +1,7 @@
 import React from "react"
 
+import { Link } from "gatsby"
+
 export default () => (
   <footer>
     <div id="footer-map">
@@ -27,7 +29,7 @@ export default () => (
 
       <div>
         <h2>Quick Links</h2>
-        <a href="/privacy-policy">Privacy Policy</a><br />
+        <Link to="/privacy-policy">Privacy Policy</Link><br />
         <a
           href="https://www.schladming-dachstein.at/en/summercard"
           target="_blank"

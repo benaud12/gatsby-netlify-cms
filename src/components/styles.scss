@@ -33,7 +33,7 @@ a {
 
 header {
   width: 100%;
-  padding: 2em 0;
+  padding: 1em 0;
   background-color: $primary;
 }
 
@@ -85,9 +85,27 @@ footer {
 .navbar {
   display: flex;
   margin: 0 2em;
+  align-items: center;
+  justify-content: space-between;
+
   a {
     color: $white;
     text-decoration: none;
+  }
+}
+
+.navbar-links {
+  display: none;
+}
+
+@media screen and (min-width: $mobileMax) {
+  .navbar-links {
+    display: block;
+    text-transform: uppercase;
+
+    a {
+      margin-left: 1.5em;
+    }
   }
 }
 
