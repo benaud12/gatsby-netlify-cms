@@ -8,10 +8,14 @@ body {
   padding: 0;
   text-align: center;
   position: relative;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 h1 {
   margin: 0;
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
 header, footer {
@@ -22,6 +26,7 @@ header, footer {
 
 footer {
   color: $white;
+  margin-top: 20px;
 }
 
 .navbar {
@@ -33,11 +38,8 @@ footer {
   }
 }
 
-.title-bg {
-  height: 220px;
-  width: 100%;
-  padding: 20px 0;
-  background-image: url("/images/apartment_waltraud_lake_cropped.jpeg");
-  background-size: cover;
-  background-position: center;
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
