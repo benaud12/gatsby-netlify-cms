@@ -15,7 +15,7 @@ export default () => (
     </div>
 
     <div id="footer-info">
-      <div id="footer-address">
+      <div>
         <h2>Address</h2>
         Apartment Waltraud<br />
         Top 13 (2nd Floor)<br />
@@ -25,12 +25,23 @@ export default () => (
         Austria<br />
       </div>
 
+      <div>
+        <h2>Quick Links</h2>
+        <a href="/privacy-policy">Privacy Policy</a><br />
+        <a
+          href="https://www.schladming-dachstein.at/en/summercard"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Summer Card
+        </a>
+      </div>
+
       <div id="footer-sommercard">
         <a
           href="https://www.schladming-dachstein.at/en/summercard"
           target="_blank"
           rel="noopener noreferrer"
-          data-content="https://www.schladming-dachstein.at/en/summercard"
         >
           <img
             style={{ width: 200, height: "auto" }}
