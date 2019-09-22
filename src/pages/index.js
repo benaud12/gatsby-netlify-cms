@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 
 import Layout from "../components/Layout"
-import "./index.scss"
 
 export default () => {
   const [isIntroExpanded, setIsIntroExpanded] = useState(false)
@@ -20,7 +19,10 @@ export default () => {
           Enjoy the stunning location, close to the main ski lifts and at the junction
           of numerous wonderful footpaths.<br />
           An extensive, sunny balcony offers magnificent mountain views.<br />
-          Accommodation for 2 - 4 people.
+          Accommodation for 2 - 4 people.<br />
+          <span id="free-summercard">
+            Free <a href="https://www.schladming-dachstein.at/en/summercard" rel="noopener noreferrer" target="_blank">Summercard</a>
+          </span>
         </p>
         {isIntroExpanded ? (
           <>
