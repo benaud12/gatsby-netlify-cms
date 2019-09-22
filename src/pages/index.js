@@ -8,10 +8,8 @@ export default () => {
   const toggleIntroExpanded = () => setIsIntroExpanded(!isIntroExpanded)
 
   return (
-    <Layout>
-      <div className="title-bg">
-        <h1>Apartment Waltraud</h1>
-      </div>
+    <Layout title="Apartment Waltraud">
+      <div className="homepage-top-image" />
       <section className="intro">
         <p>
           Apartment Waltraud is a lovely ski/holiday apartment in the idyllic alpine

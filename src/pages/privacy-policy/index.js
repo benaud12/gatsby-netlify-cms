@@ -3,8 +3,7 @@ import React from "react"
 import Layout from "../../components/Layout"
 
 export default () => (
-  <Layout>
-    <h1>Privacy Policy</h1>
+  <Layout title="Apartment Waltraud Privacy Policy">
     <section className="privacy-policy">
       <p>
         This privacy Policy describes the privacy practices for:

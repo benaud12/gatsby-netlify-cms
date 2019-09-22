@@ -16,10 +16,10 @@ body {
 }
 
 h1 {
-  margin: 1em 0 0;
+  margin: 1em 0.6em;
   text-transform: uppercase;
   font-weight: 300;
-  font-size: 2em;
+  font-size: 1.6em;
 }
 
 a {
@@ -35,6 +35,7 @@ header {
   width: 100%;
   padding: 1em 0;
   background-color: $primary;
+  color: $white;
 }
 
 footer {
@@ -88,24 +89,8 @@ footer {
   align-items: center;
   justify-content: space-between;
 
-  a {
-    color: $white;
-    text-decoration: none;
-  }
-}
-
-.navbar-links {
-  display: none;
-}
-
-@media screen and (min-width: $mobileMax) {
-  .navbar-links {
-    display: block;
-    text-transform: uppercase;
-
-    a {
-      margin-left: 1.5em;
-    }
+  h1 {
+    margin: auto;
   }
 }
 
@@ -115,18 +100,13 @@ footer {
   align-items: center;
 }
 
-.title-bg {
-  height: 200px;
+.homepage-top-image {
+  height: 240px;
   width: 100%;
-  padding: 2em 0;
-  background-image: url("/images/apartment_waltraud_lake_cropped.jpeg");
+  background-image: url("/images/haus-karlwirt-summer.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-  h1 {
-    margin: 0 1em;
-  }
 }
 
 .intro {
@@ -135,7 +115,7 @@ footer {
 
   p {
     color: $fontColor;
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1.5em;
     text-align: center;
     margin: 1em 0 0;
@@ -169,13 +149,13 @@ footer {
   h2 {
     text-align: left;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin-top: 2em;
   }
 
   p {
     color: $fontColor;
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1.5em;
     text-align: justify;
     margin: 1em 0 0;

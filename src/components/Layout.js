@@ -4,7 +4,7 @@ import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
 import "./styles.scss"
 
-const Layout = ({ children }) => {
+const Layout = ({ title, children }) => {
   return (
     <>
       <Helmet>
@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
         <meta property="og:title" content="Apartment Waltraud" />
         <meta property="og:url" content="/" />
       </Helmet>
-      <Navbar />
+      <Navbar title={title} />
       <main className="main">{children}</main>
       <Footer />
     </>

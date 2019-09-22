@@ -1,21 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
 
-export default () => (
+export default ({ title }) => (
   <header>
-    <nav className="navbar">
+    <div className="navbar">
       <Link to="/">
-        <img style={{ width: 50, height: 50, border: "solid 2px white", borderRadius: "50%" }} src="/images/apartment-waltraud-logo.svg"></img>
+        <img
+          style={{ width: 50, height: 50, border: "solid 2px white", borderRadius: "50%", marginRight: 5 }}
+          src="/images/apartment-waltraud-logo.svg"
+        />
       </Link>
-
-      <div className="navbar-links">
-        <Link to="/">
-          Home
-        </Link>
-        <Link to="/privacy-policy">
-          Privacy Policy
-        </Link>
-      </div>
-    </nav>
+      <h1>{title}</h1>
+    </div>
   </header>
 )
