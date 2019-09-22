@@ -58,6 +58,16 @@ export default () => {
           >
           {isIntroExpanded ? "Show less" : "Show more"}
         </button>
+        <p>
+          For more information, availability or to make a booking please contact us:<br />
+          Email: <a
+            href="mailto:judy.roger@btinternet.com?subject=Apartment Waltraud Enquiry"
+            target="_self"
+          >
+            judy.roger@btinternet.com
+          </a><br />
+          Tel: <a href="tel:+447968749370">+44 7968 749 370</a>
+        </p>
       </section>
     </Layout>
   )

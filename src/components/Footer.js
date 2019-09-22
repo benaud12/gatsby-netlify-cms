@@ -28,7 +28,16 @@ export default () => (
       </div>
 
       <div>
-        <h2>Quick Links</h2>
+        <h2>Contact</h2>
+        Email: <a
+          href="mailto:judy.roger@btinternet.com?subject=Apartment Waltraud Enquiry"
+          target="_self"
+        >
+          judy.roger@btinternet.com
+        </a><br />
+        Tel: <a href="tel:+447968749370">+44 7968 749 370</a>
+
+        <h2 style={{ marginTop: "1.8em" }}>Quick Links</h2>
         <Link to="/privacy-policy">Privacy Policy</Link><br />
         <a
           href="https://www.schladming-dachstein.at/en/summercard"
