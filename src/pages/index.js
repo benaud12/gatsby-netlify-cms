@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 
 import Layout from "../components/Layout"
+import { Amenities } from "../components/Amenities"
 
 export default () => {
   const [isIntroExpanded, setIsIntroExpanded] = useState(false)
@@ -66,6 +67,10 @@ export default () => {
           </a><br />
           Tel: <a href="tel:+447968749370">+44 7968 749 370</a>
         </p>
+      </section>
+      <section>
+        <h2>AMENITIES</h2>
+        <Amenities />
       </section>
     </Layout>
   )
