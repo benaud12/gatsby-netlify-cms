@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+
 $primary: #242323;
 $secondary: #01b1af;
 $fontColor: #737373;
@@ -11,7 +13,7 @@ body {
   padding: 0;
   text-align: center;
   position: relative;
-  font-family: Helvetica, sans-serif;
+  font-family: "Nunito", Helvetica, sans-serif;
   font-size: 16px;
 }
 
