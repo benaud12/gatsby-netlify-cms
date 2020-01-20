@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 
 import Layout from "../components/Layout"
+import { Divider } from "../components/Divider"
+import { Gallery } from "../components/Gallery"
 import { Amenities } from "../components/Amenities"
 
 export default () => {
@@ -68,9 +70,15 @@ export default () => {
           Tel: <a href="tel:+447968749370">+44 7968 749 370</a>
         </p>
       </section>
-      <section>
+      <Divider />
+      <section id="amenities">
         <h2>AMENITIES</h2>
         <Amenities />
+      </section>
+      <Divider />
+      <section id="gallery">
+        <h2>GALLERY</h2>
+        <Gallery />
       </section>
     </Layout>
   )

@@ -1,3 +1,4 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 
 $primary: #242323;
@@ -40,13 +41,22 @@ header {
   color: $white;
 }
 
-section {
-  padding: 1em;
+main section {
+  padding: 3rem 1rem;
+
+  &#gallery {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &:first-of-type {
+    padding-top: 1rem;
+  }
 
   h2 {
     text-transform: uppercase;
     font-size: 2rem;
-    margin-bottom: 0;
+    margin: 0;
   }
 }
 
@@ -110,6 +120,13 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-width: 300px;
+}
+
+.divider {
+  height: 1px;
+  width: 75%;
+  background-color: $fontColor;
 }
 
 .homepage-top-image {
@@ -174,6 +191,12 @@ footer {
 .amenity__description {
   font-style: "italic";
   color: $fontColor;
+}
+
+.gallery-container {
+  width: 100vw;
+  max-width: 1000px;
+  margin-top: 2rem;
 }
 
 .privacy-policy {
