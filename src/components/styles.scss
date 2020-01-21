@@ -129,15 +129,6 @@ footer {
   background-color: $fontColor;
 }
 
-.homepage-top-image {
-  height: 240px;
-  width: 100%;
-  background-image: url("/images/haus-karlwirt-summer.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .intro {
   max-width: 570px;
 
@@ -197,6 +188,16 @@ footer {
   width: 100vw;
   max-width: 1000px;
   margin-top: 2rem;
+}
+
+.image-auto-scroll-container {
+  height: 240px;
+  width: 100%;
+}
+
+.image-auto-scroll-image img {
+  height: 240px !important;
+  object-fit: cover !important;
 }
 
 .privacy-policy {

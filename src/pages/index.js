@@ -3,6 +3,7 @@ import React, { useState } from "react"
 import Layout from "../components/Layout"
 import { Divider } from "../components/Divider"
 import { Gallery } from "../components/Gallery"
+import { ImageAutoScroll } from "../components/ImageAutoScroll"
 import { Amenities } from "../components/Amenities"
 
 export default () => {
@@ -12,7 +13,7 @@ export default () => {
 
   return (
     <Layout title="Apartment Waltraud">
-      <div className="homepage-top-image" />
+      <ImageAutoScroll />
       <section className="intro">
         <p>
           Apartment Waltraud is a lovely ski/holiday apartment in the idyllic alpine
