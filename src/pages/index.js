@@ -4,6 +4,7 @@ import Layout from "../components/Layout"
 import { Gallery } from "../components/Gallery"
 import { ImageAutoScroll } from "../components/ImageAutoScroll"
 import { Amenities } from "../components/Amenities"
+import { Activities } from "../components/Activities"
 
 export default () => {
   const [isIntroExpanded, setIsIntroExpanded] = useState(false)
@@ -79,6 +80,11 @@ export default () => {
       <section id="gallery">
         <h2>GALLERY</h2>
         <Gallery />
+      </section>
+      <hr />
+      <section id="activities">
+        <h2>THINGS TO DO</h2>
+        <Activities />
       </section>
     </Layout>
   )

@@ -10,6 +10,7 @@ $mobileMax: 700px;
 body {
   width: 100%;
   min-height: 100vh;
+  min-width: 300px;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -31,6 +32,11 @@ h1 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 1.6rem;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.1rem;
 }
 
 a {
@@ -160,7 +166,8 @@ footer {
   }
 }
 
-.amenities {
+.amenities,
+.activities {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -168,17 +175,20 @@ footer {
   max-width: 55rem;
 }
 
-.amenity {
+.amenity,
+.activity {
   width: 15rem;
-  margin-top: 2rem;
+  margin: 2rem 0.5rem 0 0.5rem;
 
   svg {
     color: $fontColor;
   }
 }
 
-.amenity__description {
-  font-style: "italic";
+.amenity__description,
+.activity__description {
+  font-style: italic;
+  font-size: 1rem;
   color: $fontColor;
 }
 
